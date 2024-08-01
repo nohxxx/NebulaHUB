@@ -1,0 +1,136 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('https://raw.githubusercontent.com/nohxxx/NebulaHUB/main/img/bkg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {    /*Quadrado Central*/
+    text-align: center;
+    background-color: rgba(37, 33, 33, 0.5);
+	top: 50px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 100%;
+    height: 550px;
+    position: relative;	
+}
+
+h1 {
+    color: #ccc7c7;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    color: #ebebeb;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+p {
+    color: #fffefe;
+}
+
+.server {
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.connect-button {     /*Estilização do botão de conectar*/
+    background-color: #5592d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.connect-button:hover {     
+    background-color: #0056b3;
+}
+
+.coming-soon-button {       /*Estilização do botão de Em breve!*/
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: not-allowed;
+    margin-bottom: 10px;
+}
+
+.coming-soon-button:hover {     
+    background-color: #929394;
+}
+
+.buttons-container {
+    position: fixed;
+    top: 20px; 
+    right: 20px; 
+    display: flex;
+    gap: 10px; 
+}
+
+.steam-button, .discord-button, .sbans-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.steam-button {
+    position: absolute;
+    top: 67px;
+    left: calc(100% - 170px); 
+    background-color: #1b2838;
+}
+
+.discord-button {
+    position: absolute;
+    top: 67px;
+    left: calc(100% - 110px); 
+    background-color: #9cace4;
+}
+
+.sbans-button {
+    position: absolute;
+    top: 67px;
+    left: calc(100% - 230px); 
+    background-color: #282829;
+}
+
+.steam-button svg, .discord-button svg {
+    width: 24px;
+    height: 24px;
+}
+
+.sbans-button img{
+    display: block;
+    margin: auto;
+    width: 37px;
+    height: 41px;   
+}
+
+.note {     /*Estilização das notas*/
+    font-size: 14px;
+    color: #555;
+}
