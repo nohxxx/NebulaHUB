@@ -130,6 +130,31 @@ p {
     height: 41px;   
 }
 
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%; /* Garante que o contêiner ocupe toda a largura da viewport */
+    position: absolute;
+    top: 15px;
+    padding: 10px 0; /* Espaçamento no topo */
+}
+
+.title-letter {
+    height: 10vh; /* Altura responsiva baseada na altura da viewport */
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.title-text {
+    font-size: 10vh; /* Tamanho de fonte responsivo baseado na altura da viewport */
+    color: #a652ff; /* Cor do texto */
+    font-family: 'Arial Black', Arial, sans-serif; /* Fonte pesada e similar ao estilo mostrado */
+    font-weight: bold; /* Adiciona peso à fonte */
+    letter-spacing: 0.1em; /* Aumenta o espaçamento entre as letras */
+    text-shadow: 0 0 5px #a652ff, 0 0 10px #8000ff; /* Efeito de sombra mais suave */
+    white-space: nowrap; /* Impede quebra de linha no texto */
+}
 .note {     /*Estilização das notas*/
     font-size: 14px;
     color: #555;
