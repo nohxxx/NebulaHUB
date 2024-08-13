@@ -1,4 +1,4 @@
-        (function() { codigoquebrado/
+        (function() {
             var devtools = {
                 open: false,
                 orientation: null
